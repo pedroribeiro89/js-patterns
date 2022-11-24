@@ -1,0 +1,24 @@
+{
+  "name": "js-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "node test/userFactory.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroribeiro89/js-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroribeiro89/js-patterns/issues"
+  },
+  "homepage": "https://github.com/pedroribeiro89/js-patterns#readme",
+  "devDependencies": {
+    "rewiremock": "^3.14.4"
+  }
+}
