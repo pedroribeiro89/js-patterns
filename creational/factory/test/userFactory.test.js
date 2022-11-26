@@ -9,7 +9,7 @@ class MockDatabase {
     find = async(query) => dbData
 }
 
-rewiremock(() => require('./../src/fake-database')).with(MockDatabase)
+rewiremock(() => require('../src/fake-database')).with(MockDatabase)
 
 ;(async () => {
     {
