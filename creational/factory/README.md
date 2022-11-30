@@ -1,9 +1,12 @@
-# Creational Patterns
+# Creational Patterns - Factory
 
-Project with N-tier architecture, dependency injection
-and factory
+Project that finds a user in a database for practicing
+N-tier architecture(repository, service), 
+dependency injection(passing instances on the constructor, no 'require' needed) 
+and factory(deals with instance creation)
 
-- Repository: deals with user data on the database, used dependency injection, so no 'require' is needed
+- Fake Database: simulates a database
+- Repository: deals with user data on the database, dependency injection of the database connection
 - Service: deals with business logic, dependency injection of the repository
 - Factory: create a service instance, and deals with all dependencies instances
 
